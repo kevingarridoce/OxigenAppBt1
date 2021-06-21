@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dispositivos_Encontrados"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_login"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dispositivos Encontrados"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/Conectar_Dis_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="16dp"
+        android:insetRight="16dp"
+        android:text="Enviar"
+        app:backgroundTint="@color/botones" />
+
+    <Button
+        android:id="@+id/Regresar_Dis_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="16dp"
+        android:insetRight="16dp"
+        android:text="Regresar"
+        app:backgroundTint="@color/boton_cerrar_sesion" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

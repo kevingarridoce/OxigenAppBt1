@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559671318188",
+    "project_id": "oxigen-f89d4",
+    "storage_bucket": "oxigen-f89d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559671318188:android:54de6695bea65a23037109",
+        "android_client_info": {
+          "package_name": "com.tit.oxigenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559671318188-8cea2st6hvj4jijb52g0ndjuqj5qfgmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg4bJ6iz09jgJ2R1Il9h0dGaIX_tVUzHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559671318188-8cea2st6hvj4jijb52g0ndjuqj5qfgmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
